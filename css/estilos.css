@@ -1,0 +1,126 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+  
+  /*FUENTES*/
+  @font-face {
+    font-family: "Cinzel-Regular" "Cinzel-Medium" "Cinzel-SemiBold";
+    src: url(../assets/fonts/Cinzel-Regular.ttf);
+    font-family: "Lancelot-Regular";
+    src: url(../assets/fonts/Lancelot-Regular.ttf);
+  }
+  p{ font-family: "Lancelot-Regular";
+     font-size: 1.3rem;}
+  /*body*/
+/*HEADER*/
+
+  .header{background-color: rgb(6, 1, 1);
+          color: goldenrod;
+          text-align: center;          
+    .divancla{width: 100%;
+             text-align: center;
+      .ancla{width: 100px;
+             text-decoration: none;
+        .imgancla{align-items: center;
+                  height: 80px;
+                  width: 80px;
+                  text-decoration: none;
+                  padding: 3px;
+                  margin-top: 20px;
+                  margin-bottom: 5px;
+                  margin-left: 10px;
+                  margin-right: 10px;
+
+        }
+      }
+
+    }
+    .divnav{color: goldenrod;
+           display: inline-block; 
+           font-size: 1rem;
+           font-family: "Cinzel-Regular";
+           text-align: center;
+      .headernav{text-align: center;
+                 padding: 10px;
+                 display: inline-block;
+        .headernavul{display: inline-block;
+           .headernavulli{display: inline-block;
+             .anavheader{ color: goldenrod;
+                          text-decoration: none;
+                          padding: 3px;
+                          margin-left: 10px;
+                          margin-right: 10px;
+                          border-radius: 7px;
+                          border: 1px solid goldenrod; 
+                          display: inline-block;                      
+                          box-shadow: 11px 19px 389px 29px rgba(208,224,54,0.4);
+
+
+
+                          }}}}
+       }}
+  
+
+/*MAIN*/
+.main{background-color: black;
+      color: goldenrod;  
+    .section{text-align: left}
+    .divimgindex{background-color: black;
+      
+      align-items: center;
+      text-align: center;
+      .imgcel{display: inline-block;
+        width: 80%;
+        height: auto;
+        border-radius: 20px;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 35px;
+        box-shadow: 8px 9px 85px 5px rgba(208,224,54,0.38);
+        
+        }
+    }   
+
+  }
+ .bginput{background-color: gray;
+          color: rgb(5, 5, 5);
+          border-radius: 3px solid rgba(255, 217, 0, 0.464);
+          box-shadow: 8px 9px 85px 5px rgba(208,224,54,0.38)} 
+.h1titulo{font-size: 1.5rem;
+          font-family: "Cinzel.ttf";
+          text-align: center;}
+.h2titulo{font-size: medium;
+          font-family: "Cinzel-Medium";}
+.h3titulo{font-size: 1.2rem;
+          font-family: "Cinzel-Bold";}   
+              
+  .imggaleria{ height: 300px;
+               width: 222px;
+               margin: 5pxpx;/*
+               align-items: center;
+               justify-content: center;
+               text-align: center;
+               padding: 10px;
+               box-shadow: 11px 19px 389px 29px rgba(208,224,54,0.4);
+               display: flex;*/
+               
+                  }
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+.footer{
+          background-color: rgb(6, 1, 1);
+          color: goldenrod;
+          text-align: center;}
