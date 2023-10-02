@@ -1,3 +1,5 @@
+/*Personalizacion sobre Bootstrap*/
+
 *{margin: 0;
   padding: 0;
   box-sizing: border-box;}
@@ -11,8 +13,29 @@
   }
   p{ font-family: "Lancelot-Regular";
      font-size: 1.3rem;}
-  /*body*/
+
+/*BODY*/
 /*HEADER*/
+.menudesk{ display: none;}
+@media screen and(min-widht:700px){
+  .menudesk{display: flex;}
+  .menumobile{display: none}
+}
+
+
+
+.navmobile{background-color: rgb(0, 0, 0);
+           color: goldenrod;
+          .divnavmobile{background-color: black;
+            .uldivnavmobile{background-color: black;
+              .liuldivnavmobile{background-color: black;
+                .aliuldivnavmobile{ background-color: black;
+   }   } }  }}
+          
+
+.lognavmobile{background-color: black;
+                  width: 50px;
+                height: 50px;}
 
   .header{background-color: rgb(6, 1, 1);
           color: goldenrod;
@@ -30,11 +53,9 @@
                   margin-bottom: 5px;
                   margin-left: 10px;
                   margin-right: 10px;
+   }    }  }
 
-        }
-      }
 
-    }
     .divnav{color: goldenrod;
            display: inline-block; 
            font-size: 1rem;
@@ -54,11 +75,7 @@
                           border: 1px solid goldenrod; 
                           display: inline-block;                      
                           box-shadow: 11px 19px 389px 29px rgba(208,224,54,0.4);
-
-
-
-                          }}}}
-       }}
+  }}}} }}
   
 
 /*MAIN*/
@@ -77,11 +94,8 @@
         align-items: center;
         margin-bottom: 35px;
         box-shadow: 8px 9px 85px 5px rgba(208,224,54,0.38);
-        
-        }
-    }   
+         }  }  }
 
-  }
  .bginput{background-color: gray;
           color: rgb(5, 5, 5);
           border-radius: 3px solid rgba(255, 217, 0, 0.464);
@@ -96,23 +110,11 @@
               
   .imggaleria{ height: 300px;
                width: 222px;
-               margin: 5pxpx;/*
-               align-items: center;
-               justify-content: center;
-               text-align: center;
-               padding: 10px;
-               box-shadow: 11px 19px 389px 29px rgba(208,224,54,0.4);
-               display: flex;*/
-               
-                  }
+               margin: 5pxpx;}
 
-        
-
-
-
-
-
-
+ .imgmundos{object-fit: cover;
+            width: 200px;
+            height: 280px;}       
 
 
 

@@ -9,7 +9,9 @@
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
     <body>
-        <header class="header container-fluid">
+        <header class="header">
+            <!--menu propio de desk-->
+            <div class="menudesk">
                 <div class="divancla">
                     <a class="ancla" href="../index.html"><img class="imgancla" src="../assets/img/arcodorado.png" alt="logo"></a>
                 </div>
@@ -24,31 +26,63 @@
                         </ul>
                     </nav>
                 </div>
+            </div>
+            <!--menu propio de mobile-->
+            <div class="menumobile">
+                <nav class=" navmobile navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="divnavmobile container-fluid">
+                      <a class="navbar-brand" href="../index.html">
+                        <img class="lognavmobile" src="../assets/img/arcodorado.png" alt="Logo">
+                      </a>
+                      <button class=" bg-dark navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="uldivnavmobile navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="liuldivnavmobile nav-item">
+                            <a class="aliuldivnavmobile" class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="liuldivnavmobile nav-item">
+                            <a class="aliuldivnavmobile" class="nav-link" href="../pages/sobremi.html">Descripcion</a>
+                          </li>
+                          <li class="liuldivnavmobile nav-item">
+                            <a class="aliuldivnavmobile" class="nav-link" href="../pages/mislibros.html">Libros</a>
+                          </li>
+                          <li class="liuldivnavmobile nav-item">
+                            <a class="aliuldivnavmobile" class="nav-link" href="../pages/galeria.html">Mundos</a>
+                          </li>
+                          <li class="liuldivnavmobile nav-item">
+                            <a class="aliuldivnavmobile" class="nav-link" href="../pages/contacto.html">Contacto</a>
+                          </li>
+                       </div>
+                    </div>
+                </nav>
+            </div>
         </header>
          <main class="main container-fluid">
                 <div class="container row">
                     <h1 class="h1titulo">DEJANOS TU MENSAJE</h1><!--<form action=""></form>>-->
-                    <div class="d-flex justify-content-center align-items-center">
-                        <div>
+                    <div>
+                        <div class="col-md-3 col-sm-12 mb-4">
                             <label for= "name"> NOMBRE </label>
                             <input class="bginput" type="text" name="name" id="name" placeholder="Nombre" required>
                         </div>
-                        <div>
+                        <div class="col-md-3 col-sm-12 mb-4">
                             <label for="apellido"> APELLIDO </label>
                             <input class="bginput" type="text" id="apellido" name="apellido" placeholder="Apellido" required>
                         </div>
-                        <div>
+                        <div class="col-md-3 col-sm-12 mb-4">
                             <label for="email">EMAIL</label>
                             <input class="bginput" type="email" id=email name="email" placeholder="@servidor.com" required>
                         </div>
                         <div class="row">
-                            <div>
-                                <textarea class="bginput" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Deja tu mensaje"></textarea>
+                            <div class="col-md-5 col-sm-12 mb-2">
+                                <textarea class="bginput" name="mensaje" id="mensaje" cols="100" rows="10" placeholder="Deja tu mensaje"></textarea>
                             </div>
                             <br>
-                            <div">
-                                <input class="bginput" type="reset">
-                                <input class="bginput" type="submit" name="submit">
+                            <div>
+                                <input class="bginput mb-4" type="reset">
+                                <input class="bginput mb-4" type="submit" name="submit">
                             </div>  
                         </div>
                     </div>
