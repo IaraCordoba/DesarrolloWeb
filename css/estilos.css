@@ -16,26 +16,6 @@
 
 /*BODY*/
 /*HEADER*/
-.menudesk{ display: none;}
-@media screen and(min-widht:700px){
-  .menudesk{display: flex;}
-  .menumobile{display: none}
-}
-
-
-
-.navmobile{background-color: rgb(0, 0, 0);
-           color: goldenrod;
-          .divnavmobile{background-color: black;
-            .uldivnavmobile{background-color: black;
-              .liuldivnavmobile{background-color: black;
-                .aliuldivnavmobile{ background-color: black;
-   }   } }  }}
-          
-
-.lognavmobile{background-color: black;
-                  width: 50px;
-                height: 50px;}
 
   .header{background-color: rgb(6, 1, 1);
           color: goldenrod;
@@ -114,7 +94,24 @@
 
  .imgmundos{object-fit: cover;
             width: 200px;
-            height: 280px;}       
+            height: 280px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            box-shadow: 8px 8px 11px -2px rgba(230,216,43,0.7);}   
+
+.divimgposter{ display: block;
+  margin: auto;
+  .imgposter{display: block;
+  text-align: center;
+  margin: auto;
+  width: 450px;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 35px;
+  filter: grayscale(29%) sepia(58%) brightness(70%) saturate(224%) opacity(86%) drop-shadow(10px 10px 5px #000000);
+  box-shadow: 8px 9px 85px 5px rgba(208,224,54,0.38)}
+           }
+ 
 
 
 
