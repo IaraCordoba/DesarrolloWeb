@@ -1,107 +1,148 @@
-/*Personalizacion sobre Bootstrap*/
-
-*{margin: 0;
+/*Reseteo de valores*/
+* {
+  margin: 0;
   padding: 0;
-  box-sizing: border-box;}
-  
-  /*FUENTES*/
-  @font-face {
-    font-family: "Cinzel-Regular" "Cinzel-Medium" "Cinzel-SemiBold";
-    src: url(../assets/fonts/Cinzel-Regular.ttf);
-    font-family: "Lancelot-Regular";
-    src: url(../assets/fonts/Lancelot-Regular.ttf);
-  }
-  p{ font-family: "Lancelot-Regular";
-     font-size: 1.3rem;}
+  box-sizing: border-box;
+}
 
-/*BODY*/
+/*FUENTES*/
+@font-face {
+  font-family: "Cinzel-Regular" "Cinzel-Medium" "Cinzel-SemiBold";
+  src: url(../assets/fonts/Cinzel-Regular.ttf);
+  font-family: "Lancelot-Regular";
+  src: url(../assets/fonts/Lancelot-Regular.ttf);
+}
+p {
+  font-family: "Lancelot-Regular";
+  font-size: 1.3rem;
+}
+
+.h1titulo {
+  font-size: 1.5rem;
+  font-family: "Cinzel.ttf";
+  text-align: center;
+}
+
+.h2titulo {
+  font-size: 1.3rem;
+  font-family: "Cinzel-Medium.ttf";
+}
+
+.h3titulo {
+  font-size: 1.8rem;
+  font-family: "Cinzel.ttf";
+}
+
+/*Animacion de logo y algunas imagenes*/
+.animacionLogo {
+  overflow: hidden;
+}
+
+/*Variables*/
+/*Ubicado en footer*/
+/*Detalle de variables de mapa*/
+/*MAPA*/
 /*HEADER*/
+.header {
+  background-color: black;
+  color: goldenrod;
+  text-align: center;
+}
+.header .divancla {
+  width: 100%;
+  text-align: center;
+}
+.header .divancla .ancla {
+  width: 100px;
+  text-decoration: none;
+}
+.header .divancla .imgancla {
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  text-decoration: none;
+  padding: 3px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header .divancla .imgancla:hover {
+  transition: 0, 6s;
+  background-image: radial-gradient(circle, #cbd16b, #d4cd6e, #dac872, #e0c577, #e4c17d, #c8b273, #ada36b, #959363, #627250, #394f3d, #1c2e28, #010d0c);
+  border-radius: 50px;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
 
-  .header{background-color: rgb(6, 1, 1);
-          color: goldenrod;
-          text-align: center;          
-    .divancla{width: 100%;
-             text-align: center;
-      .ancla{width: 100px;
-             text-decoration: none;
-        .imgancla{align-items: center;
-                  height: 80px;
-                  width: 80px;
-                  text-decoration: none;
-                  padding: 3px;
-                  margin-top: 20px;
-                  margin-bottom: 5px;
-                  margin-left: 10px;
-                  margin-right: 10px;
-   }    }  }
+.divnav {
+  color: goldenrod;
+  display: inline-block;
+  font-size: 1rem;
+  font-family: "Cinzel.ttf";
+  text-align: center;
+}
+.divnav .headernav {
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+}
+.divnav .headernav .headernavul {
+  display: inline-block;
+}
+.divnav .headernav .headernavul .headernavulli {
+  display: inline-block;
+}
+.divnav .headernav .headernavul .headernavulli .anavheader {
+  color: goldenrod;
+  text-decoration: none;
+  padding: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 7px;
+  border: 1px solid goldenrod;
+  display: inline-block;
+  box-shadow: 11px 19px 389px 29px rgba(208, 224, 54, 0.4);
+}
+.divnav .headernav .headernavul .headernavulli .anavheader:hover {
+  transition: 0, 5s;
+  color: black;
+  background-image: radial-gradient(circle, #e4e40d, #c0ca36, #a1af47, #869452, #6f7957);
+  border-radius: 50px;
+  padding: 3px;
+}
 
+.main {
+  background-color: black;
+  color: goldenrod;
+}
+.main .section {
+  text-align: left;
+}
+.main .divimgindex {
+  background-color: black;
+  align-items: center;
+  text-align: center;
+}
+.main .divimgindex .imgcel {
+  display: inline-block;
+  width: 80%;
+  height: auto;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 35px;
+  margin-top: 30px;
+  box-shadow: 8px 9px 85px 5px rgba(208, 224, 54, 0.38);
+}
 
-    .divnav{color: goldenrod;
-           display: inline-block; 
-           font-size: 1rem;
-           font-family: "Cinzel-Regular";
-           text-align: center;
-      .headernav{text-align: center;
-                 padding: 10px;
-                 display: inline-block;
-        .headernavul{display: inline-block;
-           .headernavulli{display: inline-block;
-             .anavheader{ color: goldenrod;
-                          text-decoration: none;
-                          padding: 3px;
-                          margin-left: 10px;
-                          margin-right: 10px;
-                          border-radius: 7px;
-                          border: 1px solid goldenrod; 
-                          display: inline-block;                      
-                          box-shadow: 11px 19px 389px 29px rgba(208,224,54,0.4);
-  }}}} }}
-  
-
-/*MAIN*/
-.main{background-color: black;
-      color: goldenrod;  
-    .section{text-align: left}
-    .divimgindex{background-color: black;
-      
-      align-items: center;
-      text-align: center;
-      .imgcel{display: inline-block;
-        width: 80%;
-        height: auto;
-        border-radius: 20px;
-        text-align: center;
-        align-items: center;
-        margin-bottom: 35px;
-        box-shadow: 8px 9px 85px 5px rgba(208,224,54,0.38);
-         }  }  }
-
- .bginput{background-color: gray;
-          color: rgb(5, 5, 5);
-          border-radius: 3px solid rgba(255, 217, 0, 0.464);
-          box-shadow: 8px 9px 85px 5px rgba(208,224,54,0.38)} 
-.h1titulo{font-size: 1.5rem;
-          font-family: "Cinzel.ttf";
-          text-align: center;}
-.h2titulo{font-size: medium;
-          font-family: "Cinzel-Medium";}
-.h3titulo{font-size: 1.2rem;
-          font-family: "Cinzel-Bold";}   
-              
-  .imggaleria{ height: 300px;
-               width: 222px;
-               margin: 5pxpx;}
-
- .imgmundos{object-fit: cover;
-            width: 200px;
-            height: 280px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            box-shadow: 8px 8px 11px -2px rgba(230,216,43,0.7);}   
-
-.divimgposter{ display: block;
+.divimgposter {
+  display: block;
   margin: auto;
-  .imgposter{display: block;
+}
+.divimgposter .imgposter {
+  display: block;
   text-align: center;
   margin: auto;
   width: 450px;
@@ -109,17 +150,55 @@
   border-radius: 15px;
   margin-bottom: 35px;
   filter: grayscale(29%) sepia(58%) brightness(70%) saturate(224%) opacity(86%) drop-shadow(10px 10px 5px #000000);
-  box-shadow: 8px 9px 85px 5px rgba(208,224,54,0.38)}
-           }
- 
+  box-shadow: 8px 9px 85px 5px rgba(208, 224, 54, 0.38);
+}
 
+.imgmundos {
+  object-fit: cover;
+  width: 200px;
+  height: 280px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow: 8px 9px 85px 5px rgba(208, 224, 54, 0.38);
+}
 
-
-
-
+.bginput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: rgba(169, 169, 169, 0.462);
+  box-shadow: 8px 9px 85px 5px rgba(208, 224, 54, 0.38);
+  border-radius: 30px 30px 30px 30px;
+}
 
 /*FOOTER*/
-.footer{
-          background-color: rgb(6, 1, 1);
-          color: goldenrod;
-          text-align: center;}
+.footer {
+  background-color: black;
+  color: goldenrod;
+  text-align: center;
+}
+.footer .wsp {
+  font-size: 3rem;
+  color: green;
+}
+.footer .wsp:hover {
+  transition: 0, 6s;
+  background-image: radial-gradient(circle, #e4e40d, #c0ca36, #a1af47, #869452, #6f7957);
+  border-radius: 50px;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.footer .email {
+  font-size: 3rem;
+  color: gray;
+}
+.footer .email:hover {
+  transition: 0, 6s;
+  background-image: radial-gradient(circle, #e4e40d, #c0ca36, #a1af47, #869452, #6f7957);
+  border-radius: 50px;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,6 @@
+.imgmundos{object-fit: cover;
+    width: 200px;
+    height: 280px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    box-shadow: map-get($mapa-colores, box-shadow-imagenes )  ;}
