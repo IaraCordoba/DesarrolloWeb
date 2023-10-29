@@ -1,0 +1,6 @@
+/*Imagen de pagina de error*/
+.background{ width: 350px;
+             height: auto;
+             border-radius: 138px 138px 138px 138px;
+             box-shadow: map-get($mapa-colores, box-shadow-imagenes);
+}

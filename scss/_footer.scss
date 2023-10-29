@@ -3,6 +3,9 @@
     background-color:map-get($mapa-colores, background-colorblack );
     color: map-get($mapa-colores, color-texto );
     text-align: center;
+.location{font-size: $size-iconos;
+           color: rgba(126, 126, 46, 0.458);
+          @include hoverFooter}    
 .wsp{font-size: $size-iconos;
      color: green;
     @include hoverFooter}

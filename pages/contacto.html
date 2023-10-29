@@ -16,7 +16,6 @@
     </head>
     <body>
         <header class="header container-fluid">
-            <!--menu propio de desk-->
             <div class="menudesk">
                <div class="animacionLogo">
                 <div class="divancla animate__animated animate__pulse animate__infinite animate__slow">
@@ -36,57 +35,68 @@
                 </div>
             </div>
         </header>
-         <main class="main container-fluid">
+        <main class="main container-fluid">
             <div>
-                <div class="container row">
-                    <h1 class="h1titulo col-md-6 col-sm-10">DEJANOS TU MENSAJE</h1>
-                    <form action="../pages/404notfound.html">
-                        <div>
-                            <div class="col-md-3 col-sm-12 mb-4">
+                <div class="container row d-flex flex-start ">
+                    <h1 class="h1titulo col-md-6 col-sm-10 d-flex justify-content-center allign-item-center">DEJANOS TU MENSAJE</h1>
+                    <form class="d-flex flex-wrap justify-content-center allign-item-center" action="../pages/404notfound.html">
+                        <div class="col">
+                            <div class="col-md-3 col-sm-10 ms-5 mb-4 mt-3">
                                 <label for= "name"> NOMBRE 
                                 <input class="bginput" type="text" name="name" id="name" placeholder="Nombre" required>
                                 </label>
                             </div>
-                            <div class="col-md-3 col-sm-12 mb-4">
+                            <div class="col-md-3 col-sm-10  ms-5 mb-4">
                                 <label for="apellido"> APELLIDO 
                                 <input class="bginput" type="text" id="apellido" name="apellido" placeholder="Apellido" required>
                                 </label>
                             </div>
-                            <div class="col-md-3 col-sm-12 mb-4">
+                            <div class="col-md-3 col-sm-10 ms-5 mb-4">
                                 <label for="email">EMAIL
                                 <input class="bginput" type="email" id=email name="email" placeholder="@servidor.com" required>
                                 </label>
-                            </div>
+                            </div> 
                             <div class="col">
-                                <div class="col-md-5 col-sm-12 mb-2">
+                                <div class="col-md-5 col-sm-11 mb-2">
                                     <textarea class="bginput" name="mensaje" id="mensaje" cols="50" rows="10" placeholder="  Deja tu mensaje"></textarea>
                                 </div>
                                 <br>
-                                <div class="row">
-                                    <input class="bginput col-md-3 col-sm-10 mb-4 ms-3" type="reset" value="Limpiar">
-                                    <input class="bginput col-md-3 col-sm-10 mb-4 ms-2" type="submit" name="submit">
-                                </div>  
+                                <div class="row flex-wrap">
+                                    <div class="col d-flex">
+                                        <input class="bginput col-md-2 col-sm-4 ms-5 mb-4 ms-3 colorOscuro" type="reset" value="Limpiar">
+                                        <input class="bginput col-md-2 col-sm-4 ms-5 mb-4 ms-2 colorVerde" type="submit" name="submit">
+                                    </div>
+                                </div>
+                                  
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="col d-flex justify-content-center allign-item-center">
+                                <img class="col-md-3 col-sm-8 mb-2 mt-4 imgContacto d-none d-md-block " src="../assets/img/celee.jpg" alt="Celaena con arco y flecha.">
                             </div>
                         </div>
                     </form>   
-                </div>  
+                </div> 
             </div>                          
         </main>
         <footer class="container-fluid footer">
             <div class="row">
                 <section class="col-md-4 col-sm-3 mb-4">
-                    <h3 class="h3titulo">Horario de atencion</h3>
-                    <p>Lunes a viernes de 9:00 a 16:00</p>
+                    <h3 class="h3titulo">Horario de atención</h3>
+                    <p>Lunes a viernes de 9:00hs a 16:00 hs</p>
+                    <a class="location" href="../pages/contacto.html">
+                        <i class="fa-solid fa-house-chimney"></i>
+                    </a>
                 </section>
                 <section class="col-md-4 col-sm-3 mb-4">
-                    <h3 class="h3titulo">Contactanos</h3>
+                    <h3 class="h3titulo">Contáctanos</h3>
                     <p>Tel: 011 69570752</p>
                     <a class="wsp" href="https://www.whatsapp.com/">
                          <i class="fa-brands fa-whatsapp"></i>
                     </a>
                 </section>
                 <section class="col-md-4 col-sm-3 mb-4">
-                    <h3 class="h3titulo rounded-pill">Mandanos un mail</h3>
+                    <h3 class="h3titulo rounded-pill">Mándanos un mail</h3>
                     <p>Mail: cordobaiara1@gmail.com</p>
                     <a class="email" href="https://mail.google.com/">
                         <i class="fa-solid fa-envelope"></i>

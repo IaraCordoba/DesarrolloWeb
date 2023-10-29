@@ -117,6 +117,10 @@ p {
   background-color: black;
   color: goldenrod;
 }
+.main .carrouselModificacion {
+  width: 100%;
+  height: auto;
+}
 .main .section {
   text-align: left;
 }
@@ -162,14 +166,46 @@ p {
   box-shadow: 8px 9px 85px 5px rgba(208, 224, 54, 0.38);
 }
 
+/*Formulario*/
 .bginput {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5px;
-  background-color: rgba(169, 169, 169, 0.462);
+  background-color: rgba(216, 211, 211, 0.462);
   box-shadow: 8px 9px 85px 5px rgba(208, 224, 54, 0.38);
   border-radius: 30px 30px 30px 30px;
+}
+.bginput:hover {
+  transition: 0, 6s;
+  background-color: rgba(255, 255, 255, 0.901);
+  border-radius: 10px;
+  padding: 7px;
+}
+
+/*Botones de contacto: limpiar y enviar*/
+.colorVerde {
+  background-color: rgba(74, 213, 74, 0.636);
+}
+
+.colorOscuro {
+  background-color: rgba(157, 91, 91, 0.673);
+}
+
+/*Imagen de contacto*/
+.imgContacto {
+  width: 350px;
+  height: auto;
+  border-radius: 30px 31px 31px 31px;
+  box-shadow: 8px 9px 85px 5px rgba(208, 224, 54, 0.38);
+}
+
+/*Imagen de pagina de error*/
+.background {
+  width: 350px;
+  height: auto;
+  border-radius: 138px 138px 138px 138px;
+  box-shadow: 8px 9px 85px 5px rgba(208, 224, 54, 0.38);
 }
 
 /*FOOTER*/
@@ -177,6 +213,18 @@ p {
   background-color: black;
   color: goldenrod;
   text-align: center;
+}
+.footer .location {
+  font-size: 3rem;
+  color: rgba(126, 126, 46, 0.458);
+}
+.footer .location:hover {
+  transition: 0, 6s;
+  background-image: radial-gradient(circle, #e4e40d, #c0ca36, #a1af47, #869452, #6f7957);
+  border-radius: 50px;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .footer .wsp {
   font-size: 3rem;
